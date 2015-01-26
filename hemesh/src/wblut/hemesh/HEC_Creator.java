@@ -1,9 +1,6 @@
 package wblut.hemesh;
 
-import java.util.Iterator;
 
-import processing.core.PApplet;
-import processing.opengl.PGraphics3D;
 import wblut.geom.WB_Point;
 import wblut.geom.WB_Vector;
 import wblut.math.WB_Epsilon;
@@ -19,7 +16,7 @@ import wblut.math.WB_Math;
 public abstract class HEC_Creator extends HE_Machine {
 
 	/** Calling applet. */
-	public PApplet home;
+//	public PApplet home;
 
 	/** Center. */
 	protected WB_Point center;
@@ -166,11 +163,11 @@ public abstract class HEC_Creator extends HE_Machine {
 	 *            calling applet, typically "this"
 	 * @return self
 	 */
-	public HEC_Creator setToModelview(final PApplet home) {
-		this.home = home;
-		toModelview = true;
-		return this;
-	}
+//	public HEC_Creator setToModelview(final PApplet home) {
+//		this.home = home;
+//		toModelview = true;
+//		return this;
+//	}
 
 	/**
 	 * Use absolute coordinates.
@@ -178,7 +175,7 @@ public abstract class HEC_Creator extends HE_Machine {
 	 * @return self
 	 */
 	public HEC_Creator setToWorldview() {
-		home = null;
+//		home = null;
 		toModelview = false;
 		return this;
 	}
@@ -219,19 +216,19 @@ public abstract class HEC_Creator extends HE_Machine {
 		}
 		float cx, cy, cz;
 		HE_Vertex v;
-		if (toModelview) {
-			if (home.g instanceof PGraphics3D) {
-				final Iterator<HE_Vertex> vItr = base.vItr();
-				while (vItr.hasNext()) {
-					v = vItr.next();
-					cx = v.xf();
-					cy = v.yf();
-					cz = v.zf();
-					v.set(home.modelX(cx, cy, cz), home.modelY(cx, cy, cz),
-							home.modelZ(cx, cy, cz));
-				}
-			}
-		}
+//		if (toModelview) {
+//			if (home.g instanceof PGraphics3D) {
+//				final Iterator<HE_Vertex> vItr = base.vItr();
+//				while (vItr.hasNext()) {
+//					v = vItr.next();
+//					cx = v.xf();
+//					cy = v.yf();
+//					cz = v.zf();
+//					v.set(home.modelX(cx, cy, cz), home.modelY(cx, cy, cz),
+//							home.modelZ(cx, cy, cz));
+//				}
+//			}
+//		}
 		return base;
 	}
 

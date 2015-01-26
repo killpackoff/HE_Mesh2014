@@ -8,9 +8,9 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <groupId>wblut</groupId>
-    <artifactId>hemesh</artifactId>
+    <artifactId>hemesh-processing</artifactId>
     <!--<packaging>jar</packaging>-->
-    <name>hemesh</name>
+    <name>hemesh-processing</name>
     <repositories>
         <repository>
             <id>java.net</id>
@@ -19,28 +19,17 @@
     </repositories>
     <dependencies>
         <dependency>
-            <groupId>external</groupId>
-            <artifactId>hemesh-external</artifactId>
+            <groupId>processing</groupId>
+            <artifactId>core</artifactId>
             <version>1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../../libs/hemesh-external.jar</systemPath>
+            <systemPath>${project.basedir}/../../libs/core.jar</systemPath>
         </dependency>
+
         <dependency>
-            <groupId>net.sf.trove4j</groupId>
-            <artifactId>trove4j</artifactId>
-            <version>3.0.3</version>
-        </dependency>
-        <dependency>
-            <groupId>com.vividsolutions</groupId>
-            <artifactId>jts</artifactId>
-            <version>1.13</version>
-        </dependency>
-        <dependency>
-            <groupId>org.javolution</groupId>
-            <artifactId>javolution-core-java</artifactId>
-            <version>6.1.0</version>
-            <scope>system</scope>
-            <systemPath>${project.basedir}/external/javolution-6.1.0.jar</systemPath>
+            <groupId>wblut</groupId>
+            <artifactId>hemesh</artifactId>
+            <version>1.0-SNAPSHOT</version>
         </dependency>
     </dependencies>
 

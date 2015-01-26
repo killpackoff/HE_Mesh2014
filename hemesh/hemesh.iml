@@ -10,15 +10,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
-      <library name="Maven: processing:core:1">
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/core.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library">
       <library name="Maven: external:hemesh-external:1">
         <CLASSES>
           <root url="jar://$MODULE_DIR$/../../libs/hemesh-external.jar!/" />
@@ -29,14 +20,14 @@
     </orderEntry>
     <orderEntry type="library" name="Maven: net.sf.trove4j:trove4j:3.0.3" level="project" />
     <orderEntry type="library" name="Maven: com.vividsolutions:jts:1.13" level="project" />
-    <orderEntry type="library" name="Maven: org.javolution:javolution-core-java:6.1.0-SNAPSHOT" level="project" />
-    <orderEntry type="library" name="Maven: org.osgi:org.osgi.core:4.3.1" level="project" />
-    <orderEntry type="library" name="Maven: org.osgi:org.osgi.compendium:4.3.1" level="project" />
-    <orderEntry type="library" name="Maven: com.nativelibs4java:javacl:1.0.0-RC3" level="project" />
-    <orderEntry type="library" name="Maven: com.nativelibs4java:javacl-core:1.0.0-RC3" level="project" />
-    <orderEntry type="library" name="Maven: com.nativelibs4java:opencl4java:1.0.0-RC3" level="project" />
-    <orderEntry type="library" name="Maven: com.nativelibs4java:bridj:0.6.2" level="project" />
-    <orderEntry type="library" name="Maven: com.google.android.tools:dx:1.7" level="project" />
-    <orderEntry type="library" name="Maven: com.nativelibs4java:nativelibs4java-utils:1.5" level="project" />
+    <orderEntry type="module-library">
+      <library name="Maven: org.javolution:javolution-core-java:6.1.0">
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/external/javolution-6.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
   </component>
 </module>
