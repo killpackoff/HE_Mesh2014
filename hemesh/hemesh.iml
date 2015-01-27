@@ -12,7 +12,7 @@
     <orderEntry type="module-library">
       <library name="Maven: external:hemesh-external:1">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/../../libs/hemesh-external.jar!/" />
+          <root url="jar://$MODULE_DIR$/../external/hemesh-external.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -23,7 +23,7 @@
     <orderEntry type="module-library">
       <library name="Maven: org.javolution:javolution-core-java:6.1.0">
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/external/javolution-6.1.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/../external/javolution-6.1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />

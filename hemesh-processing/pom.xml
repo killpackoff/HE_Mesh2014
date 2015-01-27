@@ -23,9 +23,23 @@
             <artifactId>core</artifactId>
             <version>1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../../libs/core.jar</systemPath>
+            <systemPath>${project.basedir}/../external/core.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>glugen</groupId>
+            <artifactId>glugen</artifactId>
+            <version>1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/../external/gluegen-rt.jar</systemPath>
         </dependency>
 
+        <dependency>
+            <groupId>jogl</groupId>
+            <artifactId>jogl</artifactId>
+            <scope>system</scope>
+            <version>1</version>
+            <systemPath>${project.basedir}/../external/jogl-all.jar</systemPath>
+        </dependency>
         <dependency>
             <groupId>wblut</groupId>
             <artifactId>hemesh</artifactId>

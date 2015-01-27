@@ -23,7 +23,7 @@
             <artifactId>hemesh-external</artifactId>
             <version>1</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/../../libs/hemesh-external.jar</systemPath>
+            <systemPath>${project.basedir}/../external/hemesh-external.jar</systemPath>
         </dependency>
         <dependency>
             <groupId>net.sf.trove4j</groupId>
@@ -40,7 +40,7 @@
             <artifactId>javolution-core-java</artifactId>
             <version>6.1.0</version>
             <scope>system</scope>
-            <systemPath>${project.basedir}/external/javolution-6.1.0.jar</systemPath>
+            <systemPath>${project.basedir}/../external/javolution-6.1.0.jar</systemPath>
         </dependency>
     </dependencies>
 
