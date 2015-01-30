@@ -229,7 +229,7 @@ public class HET_OBJWriter {
 	beginSave(path, name);
 	final int vOffset = getCurrVertexOffset() + 1;
 	final int nOffset = getCurrNormalOffset() + 1;
-	newObject(new Long(mesh.getKey()).toString());
+	newObject(Long.toString(mesh.getKey()));
 	// vertices
 	final TLongIntMap keyToIndex = new TLongIntHashMap(10, 0.5f, -1L, -1);
 	Iterator<HE_Vertex> vItr = mesh.vItr();
