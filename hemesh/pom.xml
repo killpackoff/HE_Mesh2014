@@ -35,6 +35,7 @@
             <artifactId>jts</artifactId>
             <version>1.13</version>
         </dependency>
+
         <dependency>
             <groupId>org.javolution</groupId>
             <artifactId>javolution-core-java</artifactId>
@@ -42,6 +43,7 @@
             <scope>system</scope>
             <systemPath>${project.basedir}/../external/javolution-6.1.0.jar</systemPath>
         </dependency>
+
     </dependencies>
 
     <build>
