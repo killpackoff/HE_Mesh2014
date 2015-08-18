@@ -24,7 +24,7 @@ public class WB_Line extends WB_Linear implements WB_Curve {
     }
 
     public WB_Line(final WB_Coordinate o, final WB_Coordinate d) {
-	super(o, d);
+	   super(o, d);
     }
 
     public WB_Line(final double ox, final double oy, final double oz,
